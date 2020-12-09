@@ -13,6 +13,10 @@ you can also watch your favorites film collection by nevigation to "favorites pa
 
 In the project directory, you can run:
 
+### `npm i`
+
+Dependencies installition
+
 ### `npm start`
 
 Runs the app in the development mode
