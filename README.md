@@ -8,7 +8,7 @@ For your convenience, you can manage a list of favorites movies by clicking on t
 
 you can also watch your favorites film collection by nevigation to "favorites page":
 
-![Alt text](./readMeImgs/homepage.png?raw=true "Optional Title")
+![Alt text](./readMeImgs/favoritespage.png?raw=true "Optional Title")
 
 
 In the project directory, you can run:
