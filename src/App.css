@@ -1,0 +1,140 @@
+@font-face {
+  font-family: starswar;
+  src: url(./fonts/Amaranth-Regular.otf);
+}
+
+@font-face {
+  font-family: starswarItalic;
+  src: url(./fonts/Amaranth-Italic.otf);
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'starswar';
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+}
+
+#icon{
+  width: 10rem;
+   margin-top: 15px;
+}
+
+#header{
+  background: #f7f3f7;
+  position: fixed;
+  border-radius: 0 0 1rem 1rem;
+  width: 100%;
+  top: 0;
+  z-index:1;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  position:absolute;
+  top: 12rem;
+}
+
+#title{
+  padding: 0.5rem 0 0.5rem 0;
+  font-size:1.2rem;
+  font-family: starswarItalic;
+  font-weight: 900;
+}
+
+#favoriteIcon{
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+#favoriteIconFavPage{
+  width: 1.5rem;
+}
+
+#ex_favorite{
+  padding-bottom: 0.7rem;
+  font-size:1rem;
+
+}
+
+.favorite{
+  color: gold;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 750px) {
+  .container {
+    top: 6rem;
+  }
+}
+
+.box{
+  background: rgba(100, 100, 100, 0.171);
+  border-radius: 15px;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .box {
+    margin: 0.5rem 0 0 0;
+  }
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 100%;
+}
+body {
+  background: #0D0C1D;
+  color: #FFF6FF;
+  /* height: 100vh; */
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  border-radius: 5px;
+  height: auto;
+  width: 15rem;
+}
+
+@media screen and (max-width: 750px) {
+  img {
+    width: 21rem;
+  }
+}
+
+div {
+  text-align: center;
+}
+
+small {
+  display: block;
+}
+
+a {
+  color: #343078;
+  text-decoration: none;
+}
