@@ -39,9 +39,9 @@ export default function Media(props) {
         <div>
             {
                 props.film.isFavorite && !isFavorite ? favoriteFilm() :
-                <div className="box">
+                <div className={props.isHome? 'box' : 'fav_card'}>
                     <div id="title"> {props.film? props.film.title :null} </div>
-                    <img src={episodes_imgs['ep'+props.film.id]} />
+                    <img className="movie_img" src={episodes_imgs['ep'+props.film.id]} />
                     <br/>
                     {props.isHome?
                     <img id="favoriteIcon" 

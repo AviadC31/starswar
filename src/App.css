@@ -94,6 +94,21 @@ html, body {
   }
 }
 
+.fav_card{
+  background: rgba(100, 100, 100, 0.171);
+  box-shadow: 0 0 8px 1px gold;
+  border-radius: 15px;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .fav_card {
+    margin: 0.5rem 0 0 0;
+  }
+}
+
 #app{
   display: flex;
   flex-direction: column;
@@ -126,6 +141,18 @@ img {
   }
 }
 
+.movie_img {
+  border-radius: 5px;
+  height: 22rem;
+  width: 15rem;
+}
+
+@media screen and (max-width: 750px) {
+  .movie_img {
+    width: 21rem;
+  }
+}
+
 div {
   text-align: center;
 }
@@ -138,3 +165,4 @@ a {
   color: #343078;
   text-decoration: none;
 }
+
