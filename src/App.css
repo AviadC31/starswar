@@ -82,6 +82,7 @@ html, body {
 
 .box{
   background: rgba(100, 100, 100, 0.171);
+  box-shadow: 0 0 8px 1px white;
   border-radius: 15px;
   padding-left: 1em;
   padding-right: 1em;
