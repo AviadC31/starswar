@@ -91,7 +91,9 @@ html, body {
 
 @media screen and (max-width: 750px) {
   .box {
-    margin: 0.5rem 0 0 0;
+    margin: 0.5rem 0 0.5rem 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 
@@ -104,9 +106,12 @@ html, body {
   margin: 0.5rem;
 }
 
+
 @media screen and (max-width: 750px) {
-  .fav_card {
-    margin: 0.5rem 0 0 0;
+  .fav_card{
+    margin: 0.5rem 0 0.5rem 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 }
 
@@ -151,6 +156,7 @@ img {
 @media screen and (max-width: 750px) {
   .movie_img {
     width: 21rem;
+    height: 32rem;
   }
 }
 
