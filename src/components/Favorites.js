@@ -7,7 +7,8 @@ export default function Favorites(props) {
 
     useEffect(() => {
             const films = props.data.films
-            const favorites = films.filter(f => f.isFavorite)
+            const favorites = films? films.filter(f => f.isFavorite) : JSON.parse(localStorage.getItem('films')).filter(f => f.isFavorite)
+
             setFilms(favorites)
     }, [])
 
