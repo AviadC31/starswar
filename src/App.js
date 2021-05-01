@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home'
 import Hamburger from './components/Hamburger'
 import Favorites from './components/Favorites'
+import Camera from './components/Camera'
 import './App.css';
 import icon from './icons/icon.png'
 
@@ -50,7 +51,7 @@ useEffect(() => {
         setData({ films })
     }
     fetchMyAPI()
-},[])
+    },[])
 
   return (
     <Router>
@@ -62,6 +63,7 @@ useEffect(() => {
       <Hamburger />
       <Route path="/" exact render={() => <Home data={data} saveToLS={saveToLS} removeFromLS={removeFromLS} />} />
       <Route path="/favorites" exact render={() => <Favorites data={data} />} />
+      <Route path="/camera" exact render={() => <Camera />} />
     </Router>
   )
 }

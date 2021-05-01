@@ -9,10 +9,12 @@ return (
             {
             props.data.films?
              props.data.films.map(f => <MediaCard key={f.id}
-                                            film={f}
-                                            isHome={true}
-                                            saveToLS={props.saveToLS}
-                                            removeFromLS={props.removeFromLS}/>)
+                                                  film={f}
+                                                  isHome={true}
+                                                  saveToLS={props.saveToLS}
+                                                  removeFromLS={props.removeFromLS}
+                                        />
+                                 )
              :null
             }
         </div>
